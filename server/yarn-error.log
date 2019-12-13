@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/13.2.0/bin/node /usr/local/Cellar/yarn/1.19.2/libexec/bin/yarn.js add --dev SyntaxError: Cannot use import statement outside a module
+
+PATH: 
+  /usr/local/opt/mysql-client/bin:~/.composer/vendor/bin/:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:/opt/X11/bin:/usr/local/git/bin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Invalid URL
+      at module.exports.module.exports (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:71760:9)
+      at urlParts (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:31614:75)
+      at NpmRegistry.isRequestToRegistry (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:31657:19)
+      at NpmRegistry.<anonymous> (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:31689:31)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:322:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:5301:28)
+      at NpmRegistry.<anonymous> (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:301:12)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

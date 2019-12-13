@@ -1,0 +1,13 @@
+query GetRates($base: String!) {
+  rates(base: $base) {
+    rate
+    symbol
+  }
+}
+
+query GetCurrencies {
+  currencies {
+    name
+    symbol
+  }
+}
